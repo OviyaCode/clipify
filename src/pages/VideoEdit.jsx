@@ -119,8 +119,8 @@ const VideoEdit = () => {
 
   if (!project) {
     return (
-      <div className="w-screen overflow-hidden bg-dark-color-2 text-white h-screen">
-        <h1>Project not found</h1>
+      <div className="w-screen overflow-hidden bg-dark-color-2 text-white h-screen flex justify-center items-center">
+        <h1 className="text-5xl font-bold">Project not found</h1>
       </div>
     );
   }
